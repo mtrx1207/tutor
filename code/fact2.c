@@ -3,13 +3,13 @@
 //learn about while loop
 
 int main(){
-    int i, n, x, sum=0;
+    int i, n, N, x, sum=0;
     n = 1;
-
-    while(n<=3){
+	scanf("%d",&N);
+    while(n<=N){
         x=1;
         i=1;
-        while(i<=n){
+        while(i<=n){ //ini part yg ngitung faktorial
             x=x*i;
             i=i+1;
         }
@@ -19,3 +19,4 @@ int main(){
 
     printf("%d",sum);
 }
+//ngitung 1! + 2! + 3! + ..... + N!

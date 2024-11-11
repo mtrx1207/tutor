@@ -12,6 +12,7 @@ int main(){
 
     //2. just list all members
     int b[] = {1,2,3,4,5};
+    printf("size of b is %d bytes\n",sizeof(b));
     for(int i = 0; i < sizeof(b)/sizeof(int); i++) printf("%d ", b[i]);
     printf("\n");
 

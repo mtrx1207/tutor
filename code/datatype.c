@@ -8,11 +8,11 @@ int main(){
     //CHAR: 1 byte [-128,127], 2^8 - 1 = 255
 
     //contoh bener
-    char a = 'a'; //ASCII code
-    unsigned char b = 128;
-    char c = 65;
-    int aa = 97;
-    printf("CHAR DEMO: %d %d %d %c\n", a,aa,b,c);
+//    char a = 'a'; //ASCII code
+//    unsigned char b = 128;
+//    char c = 65;
+//    int aa = 97;
+//    printf("CHAR DEMO: %d %d %d %c\n", a,aa,b,c);
 
 //    contoh salah
 //     char d = "a";
@@ -35,10 +35,10 @@ int main(){
 //
 //
 //
-//    //INT: 4 bytes [-2147483648, 2147483647 ], 2^32 - 1 = 4,294,967,295
+    //INT: 4 bytes [-2147483648, 2147483647 ], 2^32 - 1 = 4,294,967,295
 //    int a2 = 97;
 //    long int b2 = 1000000000;
-//    printf("INT DEMO: %d %c %i\n", a2, a2, b2);
+//    printf("INT DEMO: %5d %c %i\n", a2, a2, b2);
 //
 //    
 //
@@ -51,7 +51,7 @@ int main(){
 //
 //    //FLOAT: 4 bytes (6 angka belakang koma)
 //    float a4 = 17.8888888;
-//    printf("FLOAT DEMO: %f %.6f %8.3f\n", a4, a4, a4);
+//    printf("FLOAT DEMO: %f %.6f %8.6f\n", a4, a4, a4);
 //
 //    //contoh salah:
 //     float b4 = 17.88888855;
