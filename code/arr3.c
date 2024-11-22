@@ -8,8 +8,10 @@ int main(){
 		scanf("%d",&my_array[i]);
 	}
 	printf("Array elements: ");
-	    for (int i = 0; i < 5; i++) {
+	    for (int i = 0; i < N; i++) {
 	        printf("%d ", my_array[i]);
 	    }
 	printf("\n");
+
+
 }

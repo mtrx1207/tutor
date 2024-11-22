@@ -10,7 +10,7 @@ void print_array(int arr[], int size) {
 int main() {
     int my_array[5] = {1, 2, 3, 4, 5};
     printf("Array passed to function: ");
-    print_array(my_array, 5);
+    print_array(my_array, 4);
 
     return 0;
 }

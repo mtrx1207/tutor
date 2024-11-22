@@ -37,10 +37,13 @@ int main() {
     }
     printf("\n");
     
-    int length = sizeof(my_array) / sizeof(my_array[0]);
-	printf("Length of my_array: %d\n", length);
+    //sizeof: hitung ukuran dari suatu variable dengan satuan byte(s)
+    int length = sizeof(my_array2) / sizeof(int);
+	printf("Length of my_array: %d\n", sizeof(my_array2));
 	
-	
+	for(int i = 0; i < sizeof(my_array)/sizeof(int); i++){
+		printf("%d ", my_array[i]);
+	}
 
     return 0;
 }
