@@ -11,7 +11,9 @@ int main(){
 
 void f(char a[]){
 	int i = 0;
+	
 	while(a[i] != '\0') i++;
+	
 	for(int x = 0; x < i; x++){
 		a[2*i-x-1] = a[x];
 	}
